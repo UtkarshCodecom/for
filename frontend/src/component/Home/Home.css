@@ -1,0 +1,46 @@
+
+
+.productListTable {
+    background-color: white;
+    border: none !important;
+  }
+  
+  .productListTable div {
+    font: 300 1vmax "Roboto";
+    color: rgb(0, 0, 0);
+  }
+  
+ 
+  
+  .productListTable a:hover {
+    color: tomato;
+  }
+  
+  .productListTable button:hover {
+    color: rgb(236, 30, 30);
+    font-size: large;
+  }
+  
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 251, 251);
+    height: 40px;
+    margin-top:6px;
+    font-size: 12px;
+  }
+
+  .MuiDataGrid-columnHeader {
+    color: rgb(236, 236, 236);
+    background-color:rgb(248, 88, 60);
+    
+  }
+  .MuiDataGrid-window{
+      color: rgb(0, 0, 0);
+  }
+
+
+  
+  @media screen and (max-width: 600px) {
+    .productListTable div {
+      font: 300 4vw "Roboto";
+    }
+  }
